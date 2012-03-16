@@ -1,0 +1,35 @@
+
+.clearfix:before, .clearfix:after {  content: "\0020"; display: block; height: 0; visibility: hidden;	 } 
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+.eglcTop{width:80%;background-color:#f1f1f1;border:solid 1px #dddddd;padding:8px;color:#21759b;font-weight:bold;}
+	.eglctName{width:20%;float:left;}
+	.eglctDescription{width:60%;float:left;}
+	.eglctEditLink{width:15%;float:left;}
+
+.eralhaGalleryListagemContainer{margin-top:30px;}
+	.eralhaGalleryListagemContainer a:link{color:#21759b;text-decoration:none;font-weight:bold;}
+	.eralhaGalleryListagemContainer a:hover{color:#579ebe;text-decoration:none;font-weight:bold;}
+	.eralhaGalleryListagemContainer a:visited{color:#21759b;text-decoration:none;font-weight:bold;}
+	.eralhaGalleryListagemContainer a:visited:hover{color:#579ebe;text-decoration:none;font-weight:bold;}
+
+	.eralhaGalleryListItem{width:80%;background-color:#f9f9f9;border:solid 1px #dddddd;border-top:solid 0px;padding:8px;}
+		.egliName{width:20%;float:left;}
+		.egliDescription{width:60%;float:left;}
+		.egliEditLink{width:15%;float:left;}
+	.imageListContainer{width:100%;margin-top:30px;}
+		.imgListItem{width:100px;display:inline;display:inline-block;margin-right:10px;margin-bottom:10px;text-align:center;}
+		.imgListItem img{width:100px;}
+
+	/*STYLES FOR HTML IN POSTS*/
+		.eralha-gallery-post-container{width:100%;}
+			.eralha-gallery-post-item{
+				width:110px;float:left;margin-right:10px;margin-bottom:10px;-moz-border-radius: 5px;border-radius: 5px;
+				overflow:hidden;line-height:0px;
+				border:solid 2px rgba(255, 255, 255, 0.4);
+				-moz-box-shadow: 5px 5px 10px #000;
+				-webkit-box-shadow: 5px 5px 10px #000;
+				box-shadow: 0px 0px 15px #1b1b1b;
+			}
+			.eralha-gallery-post-item img{width:110px;}
