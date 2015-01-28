@@ -8,8 +8,6 @@
 		Author URI:
 	*/
 
-	//AR - Escrive bue cenas
-
 // No direct access to this file
 defined('ABSPATH') or die('Restricted access');
 
