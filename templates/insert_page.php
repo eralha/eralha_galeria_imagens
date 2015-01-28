@@ -1,19 +1,19 @@
-<?php 
+<?php
 	$this->checkPostGallery();
 ?>
 <div class=wrap>
 	<form method="post" action="<?php echo $_SERVER["REQUEST_URI"]; ?>">
-		<h2>Eralha Insert Gallery Screen</h2>
+		<h2>Criar uma galeria de imagens</h2>
 
 		<div>
-			<h3>Gallery Name</h3>
+			<h3>Nome da galeria</h3>
 			<label for="devloungeHeader_yes">
 				<input type="text" id="galleryName" name="galleryName" />
 			</label>
 		</div>
 
 		<div>
-			<h3>Gallery Description</h3>
+			<h3>Descrição da galeria</h3>
 			<textarea name="galleryDescription" id="galleryDescription" style="width: 80%; height: 100px;"></textarea>
 		</div>
 
