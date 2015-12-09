@@ -1,5 +1,5 @@
 <?php
-	$gallerysDataSet = $wpdb->get_results($wpdb->prepare("SELECT * FROM ".$table_galerias." ORDER BY idGaleria DESC"), ARRAY_A);
+	$gallerysDataSet = $wpdb->get_results($wpdb->prepare("SELECT * FROM $table_galerias ORDER BY idGaleria DESC", $table_galerias), ARRAY_A);
 ?>
 
 <div class=wrap>

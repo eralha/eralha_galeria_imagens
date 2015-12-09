@@ -1,5 +1,5 @@
 <?php
-	$gallerysDataSet = $wpdb->get_results($wpdb->prepare("SELECT * FROM ".$table_galerias." WHERE idGaleria = '".$_GET["id"]."'"), ARRAY_A);
+	$gallerysDataSet = $wpdb->get_results($wpdb->prepare("SELECT * FROM ".$table_galerias." WHERE idGaleria = %d", $_GET["id"]), ARRAY_A);
 
 	foreach($gallerysDataSet as $data){
 ?>

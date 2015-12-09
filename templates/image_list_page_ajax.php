@@ -1,5 +1,5 @@
 <?php
-	$imagesData = $wpdb->get_results($wpdb->prepare("SELECT * FROM ".$table_images." WHERE idGaleria = '".$_POST["idObject"]."' ORDER BY idImagem DESC"), ARRAY_A);
+	$imagesData = $wpdb->get_results($wpdb->prepare("SELECT * FROM ".$table_images." WHERE idGaleria = %d ORDER BY idImagem DESC", $_POST["idObject"]), ARRAY_A);
 
 	foreach($imagesData as $data){
 ?>
